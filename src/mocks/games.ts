@@ -20,7 +20,7 @@ const items = [
     genre: ["Race"],
     thumbnail: mediaPath + 'images/' + '/animals-race.webp',
     info: "000",
-    highlight: false
+    highlight: true
   },
 
   {
@@ -53,7 +53,7 @@ const items = [
     genre: ["Puzzle"],
     thumbnail: mediaPath + 'images/' + '/detective-capybara.webp',
     info: "Isolate the crime scene! Call the best detective around, the flawless Detective Capybara, and let the investigation begin. In this game, you'll solve puzzles and riddles in order to solve cases. Our incredible capybara is requested worldwide, so you'll be visiting plenty of countries and you'll collect badges as you succeed in your investigations.",
-    highlight: false
+    highlight: true
   },
 
   {

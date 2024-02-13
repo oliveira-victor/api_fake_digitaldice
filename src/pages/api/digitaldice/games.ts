@@ -1,4 +1,4 @@
-import restaurantes from '@/mocks/restaurantes'
+import games from '@/mocks/games'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 import Cors from 'cors'
@@ -29,5 +29,5 @@ export default async function handler(
 ) {
   await runMiddleware(req, res, cors)
 
-  res.status(200).json(restaurantes)
+  res.status(200).json(games)
 }

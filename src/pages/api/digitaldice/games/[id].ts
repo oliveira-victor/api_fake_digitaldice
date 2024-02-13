@@ -1,5 +1,5 @@
 
-import restaurantes from '@/mocks/restaurantes'
+import games from '@/mocks/games'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 import Cors from 'cors'
@@ -30,15 +30,15 @@ export default async function handler(
 ) {
   await runMiddleware(req, res, cors)
 
-  const restaurante = restaurantes.find(x => x.id.toString() === req.query.id)
+  const game = games.find(x => x.id.toString() === req.query.id)
 
-  console.log(restaurante)
+  console.log(game)
 
-  if (restaurante) {
-    res.status(200).json(restaurante)
+  if (game) {
+    res.status(200).json(game)
   } else {
     res.status(404).json({
-      message: "Item não encontrado"
+      message: "Item not found"
     })
   }
 }

@@ -19,7 +19,7 @@ const items = [
     currentPrice: 10.85,
     genre: ["Race"],
     thumbnail: mediaPath + 'images/' + '/animals-race.webp',
-    info: "000",
+    info: "What happens when crazy animals decide to compete in a kart race? Lots of fun! Choose among 12 eccentric animals to race, each with a peculiar skill that will help you win the competitions. Choose different items that will be used to take your opponents out of the way, like a baseball bat, an electric racket, a slingshot, a boomerang, and more! Also, you're gonna experience the best multiplayer mode ever!",
     highlight: true
   },
 
